@@ -1,0 +1,15 @@
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\bin\Debug\net7.0\firstDotNet.exe
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\bin\Debug\net7.0\firstDotNet.deps.json
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\bin\Debug\net7.0\firstDotNet.runtimeconfig.json
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\bin\Debug\net7.0\firstDotNet.dll
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\bin\Debug\net7.0\firstDotNet.pdb
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.csproj.AssemblyReference.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.AssemblyInfoInputs.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.AssemblyInfo.cs
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.dll
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\refint\firstDotNet.dll
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.pdb
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\firstDotNet.genruntimeconfig.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\firstDotNet\obj\Debug\net7.0\ref\firstDotNet.dll
