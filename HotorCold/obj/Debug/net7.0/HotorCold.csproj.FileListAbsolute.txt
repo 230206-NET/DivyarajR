@@ -1,0 +1,15 @@
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\bin\Debug\net7.0\HotorCold.exe
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\bin\Debug\net7.0\HotorCold.deps.json
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\bin\Debug\net7.0\HotorCold.runtimeconfig.json
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\bin\Debug\net7.0\HotorCold.dll
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\bin\Debug\net7.0\HotorCold.pdb
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.csproj.AssemblyReference.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.AssemblyInfoInputs.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.AssemblyInfo.cs
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.csproj.CoreCompileInputs.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.dll
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\refint\HotorCold.dll
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.pdb
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\HotorCold.genruntimeconfig.cache
+C:\Users\Divyaraj\Revature\230206-NET\DivyarajR\HotorCold\obj\Debug\net7.0\ref\HotorCold.dll
