@@ -1,6 +1,4 @@
-﻿
-
-Console.WriteLine("ToDo App: helping you stay organized");
+﻿Console.WriteLine("ToDo App: helping you stay organized");
 
 /*
 To Do App:
