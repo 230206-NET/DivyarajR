@@ -14,14 +14,15 @@ namespace Hangman
             newGame.PlayGame();
         }
         public String[] words = new String[] {"coffee", "banana", "airport", "cryptography", "computer"};
-        public int lives;
-        public StringBuilder? lettersUsed;
+        public int lives; //lives remaining for user once game starts
+        public StringBuilder? lettersUsed; //dynamic object to maintain the letters already guessed
 
-        public String? secretWord;
-        public char[]? theWord;
+        public String? secretWord; //word to be guessed
+        public char[]? theWord; //correct word
 
         public bool keepAlive = true;
-
+        
+        //initializing game
         public void InitGame()
         {
             lives = 10;
@@ -37,25 +38,26 @@ namespace Hangman
             }
         }
 
-
+        //method to start the game
+        //where the user has to guess letter/word ocorrectly with number of lives
         public void PlayGame()
         {
             while (keepAlive)
             {
                 PrintStatus();
                 Console.WriteLine("Press W to guess a word, L to guess a letter or Q to quit:");
-                String choice = Console.ReadLine();
+                String choice = Console.ReadLine() ?? string.Empty;
                 String action = choice.ToUpper();
                 switch (action)
                 {
                     case "W":
                         Console.WriteLine("Which word do you think is right?");
-                        String guessedWord = Console.ReadLine();
+                        String guessedWord = Console.ReadLine() ?? string.Empty;
                         GuessWord(guessedWord.ToLower());
                         break;
                     case "L":
                         Console.WriteLine("Which letter would you like to guess for?");
-                        String guessedLetter = Console.ReadLine();
+                        String guessedLetter = Console.ReadLine() ?? string.Empty;
                         char letter = guessedLetter[0];
                         GuessLetter(letter);
                         break;
@@ -78,13 +80,15 @@ namespace Hangman
             }
         }
 
+        //method to determine the number of lives the user has
         public void PrintStatus()
         {
             Console.WriteLine("You have " + lives + " guesses left.");
             Console.WriteLine("you have guessed the following letters: " + lettersUsed);
             Console.WriteLine(theWord);
         }
-
+        
+        //word guessed correctly by the player with n lives remaining
         void GuessWord(String word)
         {
             lives--;
@@ -99,6 +103,8 @@ namespace Hangman
             }
         }
 
+        //method to guess the correct letter from the word
+        //will return nothing if same letter is repeated again
          void GuessLetter(char letter)
         {
             String letters = lettersUsed.ToString();
@@ -127,6 +133,7 @@ namespace Hangman
             }
         }
 
+        //to check if that letter is present in word or not
         public bool IsInWord(char letter)
         {
             bool letterIsInWord = false;
@@ -144,8 +151,8 @@ namespace Hangman
             return letterIsInWord;
         }
 
-
-         public bool StringEqualsCharArray(String str, char[] chars)
+        //to check if all the letters in word stored in array is equal to the given word
+        public bool StringEqualsCharArray(String str, char[] chars)
         {
             if (str.Length == chars.Length)
             {
@@ -158,10 +165,11 @@ namespace Hangman
             return false;
         }
 
+        //method for ending the game if user wants to continues or not
         void EndOfGame()
         {
             Console.WriteLine("Would you like to play again? Y/N");
-            String answer = Console.ReadLine();
+            String answer = Console.ReadLine() ?? string.Empty;
             String ans = answer.ToUpper();
             if (ans.Equals("N"))
             {
