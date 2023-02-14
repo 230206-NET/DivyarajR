@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj": {}
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj": {
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj",
+        "projectUniqueName": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj",
         "projectName": "CoinFlipper",
-        "projectPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj",
+        "projectPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\CoinFlipper.csproj",
         "packagesPath": "C:\\Users\\Divyaraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\obj\\",
+        "outputPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\CoinFlipper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Divyaraj\\AppData\\Roaming\\NuGet\\NuGet.Config"

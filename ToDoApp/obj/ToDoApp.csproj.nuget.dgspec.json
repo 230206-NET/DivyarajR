@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj": {}
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj": {
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj",
+        "projectUniqueName": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj",
         "projectName": "ToDoApp",
-        "projectPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj",
+        "projectPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\ToDoApp.csproj",
         "packagesPath": "C:\\Users\\Divyaraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\obj\\",
+        "outputPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\ToDoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Divyaraj\\AppData\\Roaming\\NuGet\\NuGet.Config"

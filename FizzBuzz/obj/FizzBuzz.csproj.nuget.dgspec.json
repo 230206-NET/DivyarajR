@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj": {}
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj": {
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj",
+        "projectUniqueName": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj",
         "projectName": "FizzBuzz",
-        "projectPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj",
+        "projectPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\FizzBuzz.csproj",
         "packagesPath": "C:\\Users\\Divyaraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\obj\\",
+        "outputPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\FizzBuzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Divyaraj\\AppData\\Roaming\\NuGet\\NuGet.Config"

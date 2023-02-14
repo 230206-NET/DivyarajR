@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj": {}
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj": {
+    "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj",
+        "projectUniqueName": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj",
         "projectName": "HangMan",
-        "projectPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj",
+        "projectPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\HangMan.csproj",
         "packagesPath": "C:\\Users\\Divyaraj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\obj\\",
+        "outputPath": "c:\\Users\\Divyaraj\\Revature\\230206-NET\\DivyarajR\\HangManGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Divyaraj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,10 +41,6 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0-preview-20221221-03, )"
-            },
-            "NuGet.Frameworks": {
-              "target": "Package",
-              "version": "[6.4.0, )"
             },
             "xunit": {
               "target": "Package",
