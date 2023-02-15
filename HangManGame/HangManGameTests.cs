@@ -5,17 +5,18 @@ namespace Hangman.Test
 {
     public class HangmanGameStart
     {
+        [Fact]
         public void HaveTenGuessesAfterInit()
         {
-            HangmanGame newGame = new HangmanGame();
+            HangManGame newGame = new HangManGame();
             newGame.InitGame();
             Assert.Equal<int>(10, newGame.lives);
         }
-
+        
         [Fact]
         public void HaveSameLengthForWordAndSecret()
         {
-            HangmanGame newGame = new HangmanGame();
+            HangManGame newGame = new HangManGame();
             newGame.InitGame();
             Assert.Equal(newGame.theWord.Length, newGame.secretWord.Length);
         }
@@ -26,7 +27,7 @@ namespace Hangman.Test
             String str = "Hello";
             char[] chars = new char[] { 'h', 'e', 'y' };
 
-            HangmanGame newGame = new HangmanGame();
+            HangManGame newGame = new HangManGame();
             Assert.False(newGame.StringEqualsCharArray(str, chars));
         }
 
@@ -36,14 +37,14 @@ namespace Hangman.Test
             String str = "Hello";
             char[] chars = new char[] { 'H', 'e', 'l', 'l', 'o' };
 
-            HangmanGame newGame = new HangmanGame();
+            HangManGame newGame = new HangManGame();
             Assert.True(newGame.StringEqualsCharArray(str, chars));
         }
 
         [Fact]
         public void KnowIfLetterIsInWord()
         {
-            HangmanGame newGame = new HangmanGame();
+            HangManGame newGame = new HangManGame();
 
             newGame.secretWord = "Frog";
             newGame.theWord = new char[4];

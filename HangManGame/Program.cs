@@ -3,15 +3,14 @@ using System.Text;
 
 namespace Hangman
 {
-    public class HangmanGame
+    public class HangManGame
     {
-        public static void main(string[] args)
+        static void Main(String[] args)
         {
-
-            Console.WriteLine("Welcome to Hangman!");
-            HangmanGame newGame = new HangmanGame();
-            newGame.InitGame();
-            newGame.PlayGame();
+            Console.WriteLine("Greet Player 1 and Player 2 for the game");
+            HangManGame game = new HangManGame();
+            game.InitGame();
+            game.PlayGame();
         }
         public String[] words = new String[] {"coffee", "banana", "airport", "cryptography", "computer"};
         public int lives; //lives remaining for user once game starts

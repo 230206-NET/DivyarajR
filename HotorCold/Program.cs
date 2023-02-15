@@ -22,7 +22,7 @@ namespace HotOrCold
 			while (loop)
 			{	
 				Console.WriteLine("Please guess a number between 0 and 20: ");
-				int guess = Int32.Parse(Console.ReadLine());
+				int guess = Int32.Parse(Console.ReadLine() ?? string.Empty);
 				
 	
 				if ( guess == target )

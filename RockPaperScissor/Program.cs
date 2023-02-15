@@ -24,7 +24,7 @@ public class rockPaperScissors
 
     private void playerMakeChoice(){
         Console.WriteLine("Enter your choice, rock paper or scissors");
-        string input = Console.ReadLine().ToLower();
+        string input = Console.ReadLine() ?? string.Empty.ToLower();
         Console.WriteLine("Cpu picked {0}", strs[cpuChoice-1]);
         switch (input){
             case "rock":
@@ -78,7 +78,7 @@ public class rockPaperScissors
                 break;
         }
         Console.WriteLine("Do u want to continue(YES/NO):");
-        ans = Console.ReadLine().ToUpper();
+        ans = Console.ReadLine() ?? string.Empty.ToUpper();
         Console.WriteLine("---------------------------------------");
 
         Console.WriteLine("Player wins " + cpu + " times");
