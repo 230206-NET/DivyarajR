@@ -20,4 +20,11 @@ public class ReimbursementTicketInfo
     public enum statusUpdate{
         Pending, Approved, Rejected
     }
+
+    //override method
+    public string ToString()
+    {
+        string inputString = string.Format("\ntickerID: {0} \nticketAmount: {0} \nticketIssuedDate: {0} \nticketDescription: {0} \nticketStatus: {0}", ticketID, ticketAmount, ticketIssuedDate, ticketDescription, ticketStatus);
+        return inputString;
+    }
 }

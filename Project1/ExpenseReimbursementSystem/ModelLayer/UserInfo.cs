@@ -9,7 +9,7 @@ public class UserInfo
     public string userPassword {get; set;}
     public userRoleEnum Role {get; set;}
 
-    public UserInfo(int userID, string userFirstName, string userLastName, string userName, string userPassword, string userRoleType)
+    public UserInfo(int userID, string userFirstName, string userLastName, string userName, string userPassword, string userRoleEnum)
     {
         this.userID = userID;
         this.userFirstName = userFirstName;
@@ -21,5 +21,12 @@ public class UserInfo
 
     public enum Role{
         Employee, Manager
+    }
+
+    //override method
+    public string ToString()
+    {
+        string inputString = string.Format("\n userID: {0} \nuserFirstName: {0} \nuserLastName: {0} \nuserName: {0} \nuserPassword: {0} \nuserRoleEnum", userID, userFirstName, userLastName, userName, userPassword, userRoleEnum);
+        return inputString;
     }
 }
