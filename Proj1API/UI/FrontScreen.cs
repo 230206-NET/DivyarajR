@@ -15,7 +15,7 @@ public class FrontScreen
             Console.WriteLine("[2] Register a New ERS Account");
             Console.WriteLine("[x] Exit Application\n");
 
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             switch(input)
             {
                 case "1":

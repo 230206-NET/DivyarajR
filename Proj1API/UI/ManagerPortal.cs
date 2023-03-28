@@ -1,6 +1,8 @@
 using Models;
 using DataAccess;
 using Services;
+using Serilog;
+
 namespace UI;
 public class ManagerPortal
 {

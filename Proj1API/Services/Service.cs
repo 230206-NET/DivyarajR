@@ -13,7 +13,11 @@ namespace Services;
             _repo = repo;
         }
 
-        public User getUserinDB(string username)
+    public Service()
+    {
+    }
+
+    public User getUserinDB(string username)
         {
             return  _repo.getUserinDB(username);
         }

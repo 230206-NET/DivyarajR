@@ -117,22 +117,22 @@ try
         return Results.BadRequest("Firstname/Lastname/Username/Password must be required");
     });
 
-    // app.MapPost("/user/empployee/create/ert/", ([FromQuery] string? username, [FromQuery] string? title, [FromQuery] string? description, [FromQuery] decimal amount, [FromBody] ERT ert, Service service) => {
-    //     if(string.IsNullOrWhiteSpace(username) == false && 
-    //     string.IsNullOrWhiteSpace(title) == false &&
-    //     string.IsNullOrWhiteSpace(description) == false && 
-    //     decimal.IsInteger(amount) == true)
-    //     {
-    //         User user = service.getUserinDB(username);
-    //         if(username == user.UserName && user.Position == "Employee")
-    //         {
-    //             return Results.Created("/user/employee/create/ert/", service.createERTinDB(ert = new ERT(username, DateTime.Now, title, description, amount, "Pending")));
-    //         }
-    //         return Results.BadRequest("No matching accounts found For Employee in the ERS Portal To Submit Ticket to be Reimbursed");
-    //     }
-    //     return Results.BadRequest("Username/Title/Description/Amount must be required");
+    app.MapPost("/user/empployee/create/ert/", ([FromQuery] string? username, [FromQuery] string? title, [FromQuery] string? description, [FromQuery] decimal amount, [FromBody] ERT ert, Service service) => {
+        if(string.IsNullOrWhiteSpace(username) == false && 
+        string.IsNullOrWhiteSpace(title) == false &&
+        string.IsNullOrWhiteSpace(description) == false && 
+        decimal.IsInteger(amount) == true)
+        {
+            User user = service.getUserinDB(username);
+            if(username == user.UserName && user.Position == "Employee")
+            {
+                return Results.Created("/user/employee/create/ert/", service.createERTinDB(ert = new ERT(username, DateTime.Now, title, description, amount, "Pending")));
+            }
+            return Results.BadRequest("No matching accounts found For Employee in the ERS Portal To Submit Ticket to be Reimbursed");
+        }
+        return Results.BadRequest("Username/Title/Description/Amount must be required");
 
-    // });
+    });
 
     // app.MapPost("/user/manager/choice/", ([FromQuery] string? managerusername, [FromQuery] string? username, [FromQuery] DateTime dt, [FromQuery] string? status, Service service) => {
     //     if(string.IsNullOrWhiteSpace(managerusername) == false &&
