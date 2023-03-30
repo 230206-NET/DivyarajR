@@ -27,5 +27,6 @@ jobs:
           echo Hello, World
           echo I\'m github actions runner
           ls
+          pwd
 
     
