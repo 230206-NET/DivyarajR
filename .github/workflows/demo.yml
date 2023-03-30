@@ -38,7 +38,7 @@ jobs:
       - name: Ensure project builds
         run: |
           cd Proj1
-          cd API/ProjAPI
+          cd Proj1API/API
           dotnet build
           
       - name: Where are we now?
